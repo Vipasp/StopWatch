@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickResetTimer(View view) {
         isRunning = false;
         seconds =0;
+
     }
     private void runTimer(){
         final Handler handler = new Handler();
