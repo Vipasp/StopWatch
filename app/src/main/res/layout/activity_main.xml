@@ -28,20 +28,26 @@
 
         <Button
             android:id="@+id/buttonStart"
+            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_start" />
+            android:text="@string/button_start"
+            android:onClick="onClickStartTimer" />
 
         <Button
             android:id="@+id/buttonPause"
+            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_pause" />
+            android:text="@string/button_pause"
+            android:onClick="onClickPauseTimer"/>
 
         <Button
             android:id="@+id/buttonReset"
+            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_reset" />
+            android:text="@string/button_reset"
+            android:onClick="onClickResetTimer"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
